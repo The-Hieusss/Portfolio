@@ -70,7 +70,7 @@ body {
  #intro-section, #about-section, #resume-section, #project-section, #contact-section
   {
   background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/18acd369-ea44-471b-aeeb-9e6e8e3ed9d5/dfm8y3e-8f64a120-ba98-426d-a299-d9ec1150a775.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzE4YWNkMzY5LWVhNDQtNDcxYi1hZWViLTllNmU4ZTNlZDlkNVwvZGZtOHkzZS04ZjY0YTEyMC1iYTk4LTQyNmQtYTI5OS1kOWVjMTE1MGE3NzUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.dpyy6upfUcQ0s8zhjOvC5079XwDlGb4fIklwZEozGtg');  
-  background-size: cover;
+  background-size: 100vw 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-blend-mode:lighten;
@@ -80,7 +80,7 @@ body {
 
 @media screen and (max-width: 768px) {
   #intro-section, #about-section, #resume-section, #project-section, #contact-section {
-    background-size: auto; /* Adjust background size for smaller screens */
+    background-size: 100vw 100vh;; /* Adjust background size for smaller screens */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat;
   background-attachment: fixed;
