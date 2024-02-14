@@ -74,6 +74,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-blend-mode:lighten;
+ background-position: 50% 50%;
+
 }
 
 [tabindex="-1"]:focus {
