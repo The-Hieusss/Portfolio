@@ -70,38 +70,13 @@ body {
 
  #intro-section, #about-section, #resume-section, #project-section, #contact-section
   {
-  background-image: linear-gradient(319deg, #930A5Aff 0%, #0F4C55ff 11%, #6F1A49ff 22%, #F3675Dff 33%, #83243Eff 44%, #D03A4Aff 56%, #FB9C5Cff 67%, #923654ff 78%, #C93849ff 89%, #B2635Aff 100%);
-  background-repeat: no-repeat;
+  background: linear-gradient(319deg, #930A5Aff 0%, #0F4C55ff 11%, #6F1A49ff 22%, #F3675Dff 33%, #83243Eff 44%, #D03A4Aff 56%, #FB9C5Cff 67%, #923654ff 78%, #C93849ff 89%, #B2635Aff 100%);
+    background-repeat: no-repeat;
   background-attachment: fixed;
-  background-blend-mode:lighten;
   background-size: 100vw 100vh;
   background-position: 50% 50%;
 }
 
-@media screen and (max-width: 768px) {
-  #intro-section, #about-section, #resume-section, #project-section, #contact-section {
-    background-size: 100vw 100vh; /* Adjust background size for smaller screens */
-    background-position: 50% 50%; /* Center the background image */
-  }
-}
-@media screen and (max-width: 576px) {
-  #intro-section, #about-section, #resume-section, #project-section, #contact-section {
-    background-size: 200vw 100vh; /* Adjust background size for smaller screens */
-    background-position: 50% 50%; /* Center the background image */
-  }
-}
-@media screen and (max-width: 480px) {
-  #intro-section, #about-section, #resume-section, #project-section, #contact-section {
-    background-size: 150vw 100vh; /* Adjust background size for smaller screens */
-    background-position: 50% 50%; /* Center the background image */
-  }
-}
-@media screen and (max-width: 1280px) {
-  #intro-section, #about-section, #resume-section, #project-section, #contact-section {
-    background-size: 100vw 100vh; /* Adjust background size for smaller screens */
-    background-position: 50% 50%; /* Center the background image */
-  }
-}
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
