@@ -81,9 +81,13 @@ body {
 @media screen and (max-width: 768px) {
   #intro-section, #about-section, #resume-section, #project-section, #contact-section {
     background-size: 100vw 100vh;; /* Adjust background size for smaller screens */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat;
-  background-attachment: fixed;
+    background-position: 50% 50%; /* Center the background image */
+  }
+}
+@media screen and (max-width: 576px) {
+  #intro-section, #about-section, #resume-section, #project-section, #contact-section {
+    background-size: 100vw 100vh;; /* Adjust background size for smaller screens */
+    background-position: 50% 50%; /* Center the background image */
   }
 }
 
