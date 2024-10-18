@@ -3482,8 +3482,8 @@ input[type="button"].btn-block {
 
 
 .swiper-slide {
-  width: 15vw;
-  height: 15vh;
+  width: 18vw;
+  height: 18vh;
  
   filter: blur(1px);
   border-radius: 10px;
@@ -3543,18 +3543,18 @@ input[type="button"].btn-block {
 }
 
 .swiper-slide--one {
-  background: 
-      url('/dummy/aspnet.svg') no-repeat 50% 50% / 30%;
+  background:
+    url('/dummy/aspnet.svg') no-repeat 50% 50% / 30%;
 }
 
 .swiper-slide--two {
-  background: 
-      url('/dummy/expo.svg') no-repeat 50% 50% / 30%;
+  background:
+    url('/dummy/expo.svg') no-repeat 50% 50% / 30%;
 }
 
 .swiper-slide--three {
   background:
-      url('/dummy/express.svg') no-repeat 50% 50% / 30%;
+    url('/dummy/express.svg') no-repeat 50% 50% / 30%;
 }
 
 .swiper-slide--four {
@@ -3562,48 +3562,48 @@ input[type="button"].btn-block {
 }
 
 .swiper-slide--five {
-  background: 
-      url('/dummy/mysql.svg') no-repeat 50% 50% / 30%; 
+  background:
+    url('/dummy/mysql.svg') no-repeat 50% 50% / 30%;
 }
 
 .swiper-slide--six {
-  background: 
-      url('/dummy/node.svg') no-repeat 50% 50% / 30%;
+  background:
+    url('/dummy/node.svg') no-repeat 50% 50% / 30%;
 }
 
 .swiper-slide--seven {
-  background: 
-      url('/dummy/npm.svg') no-repeat 50% 50% / 30%;
-      
+  background:
+    url('/dummy/npm.svg') no-repeat 50% 50% / 30%;
+
 }
 
 .swiper-slide--eight {
-  background: 
-      url('/dummy/react.svg') no-repeat 50% 50% / 30%;
-   
+  background:
+    url('/dummy/react.svg') no-repeat 50% 50% / 30%;
+
 }
 
 .swiper-slide--nine {
-  background: 
-      url('/dummy/reactnative.svg') no-repeat 50% 50% / 30%;
-  
+  background:
+    url('/dummy/reactnative.svg') no-repeat 50% 50% / 50%;
+
 }
 
 .swiper-slide--ten {
-  background: 
-      url('/dummy/tailwindcss.svg') no-repeat 50% 50% / 30%;
+  background:
+    url('/dummy/tailwindcss.svg') no-repeat 50% 50% / 30%;
 }
 
 .swiper-slide--eleven {
   background:
-  
-      url('/dummy/vite.png') no-repeat 50% 50% / 30%;
+
+    url('/dummy/vite.png') no-repeat 50% 50% / 30%;
 }
 
 .swiper-slide--twelve {
   background:
-  
-      url('/dummy/bun.png') no-repeat 50% 50% / 30%;
+
+    url('/dummy/bun.png') no-repeat 50% 50% / 30%;
 }
 
 .swiper-3d .swiper-slide-shadow-left,
