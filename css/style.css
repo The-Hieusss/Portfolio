@@ -3478,13 +3478,13 @@ input[type="button"].btn-block {
   align-items: center;
   overflow: hidden;
   box-sizing: border-box;
+
 }
 
 
 .swiper-slide {
   width: 18vw;
   height: 18vh;
- 
   filter: blur(1px);
   border-radius: 10px;
   display: flex;
@@ -3601,9 +3601,7 @@ input[type="button"].btn-block {
 }
 
 .swiper-slide--twelve {
-  background:
-
-    url('/frameworks/bun.png') no-repeat 50% 50% / 30%;
+  background: url('/frameworks/bun.png') no-repeat 50% 50% / 30%;
 }
 
 .swiper-3d .swiper-slide-shadow-left,
@@ -3612,6 +3610,23 @@ input[type="button"].btn-block {
 }
 
 
+
+@media screen and (max-width: 1000px) {
+  .swiper-slide--one,
+  .swiper-slide--two,
+  .swiper-slide--three,
+  .swiper-slide--four,
+  .swiper-slide--five,  
+  .swiper-slide--six,
+  .swiper-slide--seven,  
+  .swiper-slide--eight,          
+  .swiper-slide--nine,
+  .swiper-slide--ten,  
+  .swiper-slide--eleven,
+  .swiper-slide--twelve {
+    background-size: 50%;
+  }
+}
 
 .navbar {
   position: relative;
