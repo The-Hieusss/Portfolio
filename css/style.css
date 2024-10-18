@@ -3544,66 +3544,66 @@ input[type="button"].btn-block {
 
 .swiper-slide--one {
   background:
-    url('/dummy/aspnet.svg') no-repeat 50% 50% / 30%;
+    url('/frameworks/aspnet.svg') no-repeat 50% 50% / 30%;
 }
 
 .swiper-slide--two {
   background:
-    url('/dummy/expo.svg') no-repeat 50% 50% / 30%;
+    url('/frameworks/expo.svg') no-repeat 50% 50% / 30%;
 }
 
 .swiper-slide--three {
   background:
-    url('/dummy/express.svg') no-repeat 50% 50% / 30%;
+    url('/frameworks/express.svg') no-repeat 50% 50% / 30%;
 }
 
 .swiper-slide--four {
-  background: url('/dummy/git.svg') no-repeat 50% 50% / 30%;
+  background: url('/frameworks/git.svg') no-repeat 50% 50% / 30%;
 }
 
 .swiper-slide--five {
   background:
-    url('/dummy/mysql.svg') no-repeat 50% 50% / 30%;
+    url('/frameworks/mysql.svg') no-repeat 50% 50% / 30%;
 }
 
 .swiper-slide--six {
   background:
-    url('/dummy/node.svg') no-repeat 50% 50% / 30%;
+    url('/frameworks/node.svg') no-repeat 50% 50% / 30%;
 }
 
 .swiper-slide--seven {
   background:
-    url('/dummy/npm.svg') no-repeat 50% 50% / 30%;
+    url('/frameworks/npm.svg') no-repeat 50% 50% / 30%;
 
 }
 
 .swiper-slide--eight {
   background:
-    url('/dummy/react.svg') no-repeat 50% 50% / 30%;
+    url('/frameworks/react.svg') no-repeat 50% 50% / 30%;
 
 }
 
 .swiper-slide--nine {
   background:
-    url('/dummy/reactnative.svg') no-repeat 50% 50% / 50%;
+    url('/frameworks/reactnative.svg') no-repeat 50% 50% / 50%;
 
 }
 
 .swiper-slide--ten {
   background:
-    url('/dummy/tailwindcss.svg') no-repeat 50% 50% / 30%;
+    url('/frameworks/tailwindcss.svg') no-repeat 50% 50% / 30%;
 }
 
 .swiper-slide--eleven {
   background:
 
-    url('/dummy/vite.png') no-repeat 50% 50% / 30%;
+    url('/frameworks/vite.png') no-repeat 50% 50% / 30%;
 }
 
 .swiper-slide--twelve {
   background:
 
-    url('/dummy/bun.png') no-repeat 50% 50% / 30%;
+    url('/frameworks/bun.png') no-repeat 50% 50% / 30%;
 }
 
 .swiper-3d .swiper-slide-shadow-left,
