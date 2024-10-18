@@ -3611,7 +3611,7 @@ input[type="button"].btn-block {
 
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1040px) {
   .swiper-slide--one,
   .swiper-slide--two,
   .swiper-slide--three,
@@ -3625,6 +3625,11 @@ input[type="button"].btn-block {
   .swiper-slide--eleven,
   .swiper-slide--twelve {
     background-size: 50%;
+  } 
+
+  .swiper-slide {
+    height: 5vh;
+    width: 40vw;
   }
 }
 
