@@ -3640,7 +3640,7 @@ input[type="button"].btn-block {
 /* Small screens */
 @media screen and (max-width: 800px) {
   .swiper-slide {
-    height: 20vh;
+    height: 25vh;
     width: 30vw;
   }
 
@@ -3656,7 +3656,12 @@ input[type="button"].btn-block {
   .swiper-slide--ten,  
   .swiper-slide--eleven,
   .swiper-slide--twelve {
-    background-size: 35%;
+    background-size: 40%;
+  }
+
+  .swiper-slide--nine {
+    background-size: 50%;
+  
   }
 }
 
@@ -3679,7 +3684,7 @@ input[type="button"].btn-block {
   .swiper-slide--ten,  
   .swiper-slide--eleven,
   .swiper-slide--twelve {
-    background-size: 30%;
+    background-size: 35%;
   }
 }
 
@@ -3698,12 +3703,16 @@ input[type="button"].btn-block {
   .swiper-slide--six,
   .swiper-slide--seven,  
   .swiper-slide--eight,          
-  .swiper-slide--nine,
   .swiper-slide--ten,  
   .swiper-slide--eleven,
   .swiper-slide--twelve {
-    background-size: 25%;
+    background-size: 40%;
   }
+
+  .swiper-slide--nine {
+    background-size: 50%;
+  }
+
 }
 
 
@@ -8780,8 +8789,8 @@ font-family: 'Montserrat';
     .ftco-navbar-light.scrolled .navbar-brand {
       color: #FFAC00;
       font-family: mustardo;
-      padding-top: 1rem;
-      padding-bottom: 1rem;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
       font-size: 24px; }
 
 .navbar-brand {
