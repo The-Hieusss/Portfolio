@@ -3611,7 +3611,16 @@ input[type="button"].btn-block {
 
 
 
-@media screen and (max-width: 1040px) {
+/* Base styles for swiper slides */
+
+
+/* Medium screens */
+@media screen and (max-width: 1094px) {
+  .swiper-slide {
+    height: 15vh;
+    width: 25vw;
+  }
+
   .swiper-slide--one,
   .swiper-slide--two,
   .swiper-slide--three,
@@ -3624,14 +3633,79 @@ input[type="button"].btn-block {
   .swiper-slide--ten,  
   .swiper-slide--eleven,
   .swiper-slide--twelve {
-    background-size: 50%;
-  } 
-
-  .swiper-slide {
-    height: 5vh;
-    width: 40vw;
+    background-size: 40%;
   }
 }
+
+/* Small screens */
+@media screen and (max-width: 800px) {
+  .swiper-slide {
+    height: 20vh;
+    width: 30vw;
+  }
+
+  .swiper-slide--one,
+  .swiper-slide--two,
+  .swiper-slide--three,
+  .swiper-slide--four,
+  .swiper-slide--five,  
+  .swiper-slide--six,
+  .swiper-slide--seven,  
+  .swiper-slide--eight,          
+  .swiper-slide--nine,
+  .swiper-slide--ten,  
+  .swiper-slide--eleven,
+  .swiper-slide--twelve {
+    background-size: 35%;
+  }
+}
+
+/* Extra small screens */
+@media screen and (max-width: 600px) {
+  .swiper-slide {
+    height: 25vh;
+    width: 35vw;
+  }
+
+  .swiper-slide--one,
+  .swiper-slide--two,
+  .swiper-slide--three,
+  .swiper-slide--four,
+  .swiper-slide--five,  
+  .swiper-slide--six,
+  .swiper-slide--seven,  
+  .swiper-slide--eight,          
+  .swiper-slide--nine,
+  .swiper-slide--ten,  
+  .swiper-slide--eleven,
+  .swiper-slide--twelve {
+    background-size: 30%;
+  }
+}
+
+/* Ultra small screens like mobile phones */
+@media screen and (max-width: 400px) {
+  .swiper-slide {
+    height: 30vh;
+    width: 40vw;
+  }
+
+  .swiper-slide--one,
+  .swiper-slide--two,
+  .swiper-slide--three,
+  .swiper-slide--four,
+  .swiper-slide--five,  
+  .swiper-slide--six,
+  .swiper-slide--seven,  
+  .swiper-slide--eight,          
+  .swiper-slide--nine,
+  .swiper-slide--ten,  
+  .swiper-slide--eleven,
+  .swiper-slide--twelve {
+    background-size: 25%;
+  }
+}
+
 
 .navbar {
   position: relative;
