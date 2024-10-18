@@ -83,7 +83,30 @@
 	onePageClick();
 	
 
-
+	var swiper = new Swiper(".swiper", {
+		effect: "coverflow",
+		grabCursor: true,
+		centeredSlides: true,
+		slidesPerView: "auto",
+		coverflowEffect: {
+			rotate: 0,
+			stretch: 0,
+			depth: 100,
+			modifier: 2,
+			slideShadows: true
+		},
+		spaceBetween: 60,
+		loop: true,
+		speed: 1000,
+		autoplay: {
+			delay: 2000, // Time between transitions (in milliseconds)
+			disableOnInteraction: false, // Keep autoplay running even after user interactions
+		},
+		pagination: {
+			el: ".swiper-pagination",
+			clickable: true
+		}
+	});
 	  
 
 

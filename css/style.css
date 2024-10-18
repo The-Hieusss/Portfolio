@@ -3467,6 +3467,152 @@ input[type="button"].btn-block {
 .tab-content > .active {
   display: block; }
 
+
+
+/*Carousel */
+
+#carousel {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+
+.swiper-slide {
+  width: 15vw;
+  height: 15vh;
+ 
+  filter: blur(1px);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: self-start;
+ 
+}
+
+.swiper-slide-active {
+  filter: blur(0px);
+}
+
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active {
+  background: var(--color-orange);
+}
+
+.swiper-slide span {
+  text-transform: uppercase;
+  color: #fff;
+  padding: 7px 18px 7px 25px;
+  display: inline-block;
+  border-radius: 0 20px 20px 0px;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+
+.swiper-slide h2 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.4;
+  margin-bottom: 15px;
+  padding: 25px 45px 0 25px;
+}
+
+.swiper-slide p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  padding: 0 25px 35px 25px;
+}
+
+.swiper-slide svg {
+  color: #fff;
+  width: 22px;
+  height: 22px;
+  margin-right: 7px;
+}
+
+.swiper-slide--one {
+  background: 
+      url('/dummy/aspnet.svg') no-repeat 50% 50% / 30%;
+}
+
+.swiper-slide--two {
+  background: 
+      url('/dummy/expo.svg') no-repeat 50% 50% / 30%;
+}
+
+.swiper-slide--three {
+  background:
+      url('/dummy/express.svg') no-repeat 50% 50% / 30%;
+}
+
+.swiper-slide--four {
+  background: url('/dummy/git.svg') no-repeat 50% 50% / 30%;
+}
+
+.swiper-slide--five {
+  background: 
+      url('/dummy/mysql.svg') no-repeat 50% 50% / 30%; 
+}
+
+.swiper-slide--six {
+  background: 
+      url('/dummy/node.svg') no-repeat 50% 50% / 30%;
+}
+
+.swiper-slide--seven {
+  background: 
+      url('/dummy/npm.svg') no-repeat 50% 50% / 30%;
+      
+}
+
+.swiper-slide--eight {
+  background: 
+      url('/dummy/react.svg') no-repeat 50% 50% / 30%;
+   
+}
+
+.swiper-slide--nine {
+  background: 
+      url('/dummy/reactnative.svg') no-repeat 50% 50% / 30%;
+  
+}
+
+.swiper-slide--ten {
+  background: 
+      url('/dummy/tailwindcss.svg') no-repeat 50% 50% / 30%;
+}
+
+.swiper-slide--eleven {
+  background:
+  
+      url('/dummy/vite.png') no-repeat 50% 50% / 30%;
+}
+
+.swiper-slide--twelve {
+  background:
+  
+      url('/dummy/bun.png') no-repeat 50% 50% / 30%;
+}
+
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right {
+    background-image: none;
+}
+
+
+
 .navbar {
   position: relative;
   display: -webkit-box;
@@ -9987,4 +10133,3 @@ flex-wrap: wrap;
     stroke-dashoffset: -136px; } }
 
 
-    
