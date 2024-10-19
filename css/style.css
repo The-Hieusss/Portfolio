@@ -3686,6 +3686,9 @@ input[type="button"].btn-block {
   .swiper-slide--twelve {
     background-size: 35%;
   }
+  .swiper-slide--nine {
+    background-size: 50%;
+  }
 }
 
 /* Ultra small screens like mobile phones */
