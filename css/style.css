@@ -3833,7 +3833,6 @@ color: #ffffff !important;
 }
   .navbar-brand:hover, .navbar-brand:focus {
     text-decoration: none;
-    color: #FF663E !important; 
   }
 
 .navbar-nav {
@@ -8796,13 +8795,7 @@ font-family: 'Montserrat';
       padding-bottom: 2rem;
       font-size: 24px; }
 
-.navbar-brand {
-  color: #FFAC00;
-  font-family: mustardo;
-  font-size: 26px;
-  position: relative;
-  z-index: 0;
- }
+
 
 /*  .navbar-brand:after {
     position: absolute;
@@ -9164,10 +9157,10 @@ font-family: 'Montserrat';
   font-size: 20px; }
   .ftco-about .counter-wrap .text p span {
     font-weight: 400;
-    color: #6EC5B8; }
+     }
   .ftco-about .counter-wrap .text p span.number {
     font-weight: 600;
-    color: #FFAC00; }
+   ; }
 
 #navi {
   top: 180px;
@@ -9248,7 +9241,6 @@ font-family: 'Montserrat';
   .resume-wrap .position {
     font-size: 18px;
     font-weight: 700;
-    color: #6ec5b8; 
     font-family: 'Inter';
   }
 
@@ -9268,9 +9260,9 @@ font-family: 'Montserrat';
 .services-1 {
   margin-bottom: 40px;
   padding: 2em;
-  background-color: #ff1493;
-background-image: linear-gradient(319deg, #ff1493 0%, #0000ff 37%, #ff8c00 100%);
+  background-color: #000;
   border-radius: 1em;
+
 }
   .services-1 .icon {
     display: block;
@@ -9278,15 +9270,33 @@ background-image: linear-gradient(319deg, #ff1493 0%, #0000ff 37%, #ff8c00 100%)
     .services-1 .icon i {
       font-size: 60px;
       line-height: 1.0;
-      color: #FFAC00; }
+
+      background: linear-gradient(135deg, 
+      #ffbf41 0%,    
+      #ff3131 30%,    
+      #8c52ff 50%,   
+      #34a5f7 70%,    
+      #67fcfe 100%   
+    );
+    
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+    
+    }
   .services-1 .desc h3 {
     line-height: 1.3;
-    font-size: 13px;
+    font-size: 30px;
     font-weight: 500;
     letter-spacing: 3px;
     text-transform: uppercase;
     position: relative;
-    color: #E5E5E5; }
+    color: #fff;
+
+   }
+
+    .services-1 .desc p >  strong {
+      color: #fff !important;
+    }
     .services-1 .desc h3:after {
       position: absolute;
       bottom: -15px;
@@ -9295,49 +9305,36 @@ background-image: linear-gradient(319deg, #ff1493 0%, #0000ff 37%, #ff8c00 100%)
       content: '';
       width: 30px;
       height: 1px;
-      background: #FFAC00;
       margin: 0 auto; }
-    .services-1 .desc h3 a {
-      color: #fff; }
-  .services-1 .desc h4 {
-    font-size: 20px;
-    font-weight: 300;
-    margin-bottom: 18px; }
+  
+      
   .services-1 .desc span {
     display: block;
     text-transform: uppercase;
     font-size: 12px;
     margin-bottom: 10px;
-    color: #FFAC00; }
-  .services-1 .desc p {
-    color: #E5E5E5; }
-  
-  .services-1 .desc p strong {
-    color: #6ec5b8;
-  }
+    }
+
   .services-1:hover {
-    background: linear-gradient(319deg, #c55cf2, #7c05f2, #010326, #323ad9, #0331118c);
-    transform: scale(1.1);
+  transform: scale(1.02);
+  box-shadow: 0 0 10px #000000;
+  transition:all 0.3s ease-in-out;
   }
 
-  
-  
-    .services-1:hover .icon i {
-      color: #fff; }
-    .services-1:hover h3 {
-      color: #000000;
-     }
-      .services-1:hover h3:after {
-        background: #000000; }
-        .services-1:hover .desc p {
-          background-image: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
-          -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-        }
-          .services-1:hover .desc p strong{
-            color: #000000;
-          }
+  .services-1:hover .desc p > strong {
+    color: #FFAC00;
+  }
 
+  .desc img {
+    width: 20%;
+      height: auto;
+      margin-bottom: 2vw;
+  }
+    
+  #exp {
+ 
+  }
+   
 .progress-wrap {
   width: 100%;
   margin-bottom: 30px; }
@@ -9979,13 +9976,7 @@ flex-wrap: wrap;
   box-shadow: none !important;
   font-size: 15px; 
 }
-.desc img {
-  width: 100%; /* Make the image fill the container */
-    height: auto;
-    max-width: 100%; /* Ensure the image doesn't exceed the container */
-    border-radius: 50%; /* Make the image round */
-    margin-bottom: 2vw;
-}
+
 
 
 .block-21 .blog-img {
