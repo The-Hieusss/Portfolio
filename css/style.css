@@ -1594,7 +1594,7 @@ pre {
 
 @media (max-width: 991.98px) {
   .table-responsive-lg {
-    display: block;
+    display: flex;
     width: 100%;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch; }
@@ -9262,7 +9262,7 @@ font-family: 'Montserrat';
   padding: 2em;
   background-color: #000;
   border-radius: 1em;
-
+ 
 }
   .services-1 .icon {
     display: block;
