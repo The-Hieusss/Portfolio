@@ -9262,7 +9262,7 @@ font-family: 'Montserrat';
   padding: 2em;
   background-color: #000;
   border-radius: 1em;
- 
+  height: 81%;
 }
   .services-1 .icon {
     display: block;
@@ -9321,19 +9321,20 @@ font-family: 'Montserrat';
   transition:all 0.3s ease-in-out;
   }
 
-  .services-1:hover .desc p > strong {
-    color: #FFAC00;
-  }
+  
 
   .desc img {
-    width: 20%;
+    width: 5%;
       height: auto;
       margin-bottom: 2vw;
+     opacity: 0;
   }
     
-  #exp {
- 
+  .desc .mb-4 {
+    font-size: 18px !important;
   }
+
+  
    
 .progress-wrap {
   width: 100%;

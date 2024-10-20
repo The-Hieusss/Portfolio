@@ -15,7 +15,7 @@ particlesJS('particles-js',
       "value": "#000000"
     },
     "shape": {
-      "type": "circle",
+      "type": "image",
       "stroke": {
         "width": 0,
         "color": "#000000"
@@ -24,6 +24,7 @@ particlesJS('particles-js',
         "nb_sides": 3
       },
       "image": {
+        "src": "../images/favicon.png",
         "width": 100,
         "height": 100
       }
@@ -39,7 +40,7 @@ particlesJS('particles-js',
       }
     },
     "size": {
-      "value": 3,
+      "value": 20,
       "random": true,
       "anim": {
         "enable": false,
