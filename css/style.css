@@ -3747,12 +3747,7 @@ input[type="button"].btn-block {
     -ms-flex-pack: justify;
     justify-content: space-between; }
 
-  .position {
-    background-clip: text;
-    background-color: #000000;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  } 
+ 
   
     .pl-3 #asu {
       background: linear-gradient(90deg, #ffc627, #8c1d40);
@@ -9201,9 +9196,15 @@ font-family: 'Montserrat';
     margin-bottom: 0; }
   .page .heading {
     font-weight: 800;
-    font-size: 30px;
+    font-family: 'Montserrat';
+    font-size: 45px;
     margin-bottom: 30px;
-    color: #FFAC00; }
+    background-clip: text;  
+    background-color: #000000;
+    background: linear-gradient(90deg, #000000, #333333, #666666, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+    }
 
 .resume-wrap {
   width: 100%;
@@ -9239,9 +9240,13 @@ font-family: 'Montserrat';
     font-weight: 700; 
   }
   .resume-wrap .position {
-    font-size: 18px;
-    font-weight: 700;
-    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 600;
+    background-clip: text;
+    background-color: #000000;
+    font-family: "Montserrat" !important;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
 .ftco-partner {
@@ -9563,16 +9568,7 @@ font-family: 'Montserrat';
         background: transparent;
         display: none; } }
 
-  .heading {
-    background-clip: text;
-  
-    /* Apply the gradient as the background */
-    background-color: #000000;
-    background: linear-gradient(90deg, #000000, #333333, #666666, #000000);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;  
-  
-  }      
+
 
 .form-control {
   height: 52px !important;
