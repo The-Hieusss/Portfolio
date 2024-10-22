@@ -9420,11 +9420,12 @@ font-family: 'San Francisco', sans-serif;
   padding: 10px; /* Clean and consistent padding */
 }
 
-@media screen and (max-width: 1600px) {
+
+@media screen and (max-width: 1024px) {
 
   .modal-body img {
-    height: 18vh;
-    width: auto;
+    height: 20vh;
+    width: 30vw;
      margin-bottom: 20px; /* Space between images */
      border-radius: 5px; /* Slight rounded corners */
      padding: 10px; /* Clean and consistent padding */
@@ -9432,17 +9433,31 @@ font-family: 'San Francisco', sans-serif;
 
 }
 
-@media screen and (max-height: 500px) {
+
+@media screen and (max-width: 800px) {  
 
   .modal-body img {
-    height: 50vh;
-    width: 50vw;
+    height: 26vh;
+    width: 32vw;
+     margin-bottom: 20px; /* Space between images */
+     border-radius: 5px; /* Slight rounded corners */
+     padding: 10px; /* Clean and consistent padding */
+   }
+  }
+
+@media screen and (max-width: 600px) {
+
+  .modal-body img {
+    height: 30vh;
+    width: 30vw;
      margin-bottom: 20px; /* Space between images */
      border-radius: 5px; /* Slight rounded corners */
      padding: 10px; /* Clean and consistent padding */
    }
 
-}
+  }
+
+
 
 .modal-body {
   display: flex;
@@ -9763,6 +9778,19 @@ textarea.form-control {
 .ftco-animate {
   opacity: 0;
   visibility: hidden; }
+
+  .proskills img {
+    height: 50px;
+    width: 50px;
+  }
+
+  @media screen and (min-width: 400px) {
+    .proskills img {
+      height: 70px;
+      width: 70px;
+    }
+  
+  }
 
 .bg-primary {
   background: #FFAC00 !important; }
