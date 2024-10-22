@@ -2100,15 +2100,7 @@ a.btn.disabled,
 fieldset:disabled a.btn {
   pointer-events: none; }
 
-#fiverr {
-  background-color: #36b772;
-  border-color: #36b772 !important;
-}
 
-#fiverr:hover {
-  background-color: #373536 !important;
-  border-color: #36b772 !important;
-}
 
 
 
@@ -3604,6 +3596,10 @@ input[type="button"].btn-block {
   background: url('/frameworks/bun.png') no-repeat 50% 50% / 30%;
 }
 
+.swiper-slide--thirteen {
+  background: url('/frameworks/bootstrap.png') no-repeat 50% 50% / 50%;
+}
+
 .swiper-3d .swiper-slide-shadow-left,
 .swiper-3d .swiper-slide-shadow-right {
     background-image: none;
@@ -3632,7 +3628,8 @@ input[type="button"].btn-block {
   .swiper-slide--nine,
   .swiper-slide--ten,  
   .swiper-slide--eleven,
-  .swiper-slide--twelve {
+  .swiper-slide--twelve ,
+  .swiper-slide--thirteen {
     background-size: 40%;
   }
 }
@@ -3655,7 +3652,8 @@ input[type="button"].btn-block {
   .swiper-slide--nine,
   .swiper-slide--ten,  
   .swiper-slide--eleven,
-  .swiper-slide--twelve {
+  .swiper-slide--twelve,  
+  .swiper-slide--thirteen {
     background-size: 40%;
   }
 
@@ -3683,7 +3681,8 @@ input[type="button"].btn-block {
   .swiper-slide--nine,
   .swiper-slide--ten,  
   .swiper-slide--eleven,
-  .swiper-slide--twelve {
+  .swiper-slide--twelve,
+  .swiper-slide--thirteen {
     background-size: 35%;
   }
   .swiper-slide--nine {
@@ -3708,7 +3707,8 @@ input[type="button"].btn-block {
   .swiper-slide--eight,          
   .swiper-slide--ten,  
   .swiper-slide--eleven,
-  .swiper-slide--twelve {
+  .swiper-slide--twelve,
+  .swiper-slide--thirteen {
     background-size: 40%;
   }
 
@@ -8562,7 +8562,7 @@ h1, h2, h3, h4, h5,
 
 
 #intro-section  h2, .subheading {
-font-family: 'Montserrat';
+font-family: 'San Francisco', sans-serif;
   color: #000000 !important;
 }
 
@@ -9027,13 +9027,22 @@ font-family: 'Montserrat';
         background: #fff !important;
         color: #fff !important; }
   .btn.btn-secondary {
-    background: #a0f669 !important;
-    border: 1px solid #a0f669 !important;
-    color: #fff !important; }
+    background: #000; 
+    border: 1px solid #000;
+    color: #fff ;
+    font-size: 'Montserrat';
+  }
     .btn.btn-secondary:hover {
-      border: 1px solid #a0f669 !important;
-      background: transparent !important;
-      color: #a0f669 !important; }
+      
+      background: linear-gradient(135deg, 
+      #ffbf41 0%,    
+      #ff3131 30%,    
+      #8c52ff 50%,   
+      #34a5f7 70%,    
+      #67fcfe 100%   
+    ) ;
+    color: #fff;
+    }
     .btn.btn-secondary.btn-outline-primary {
       border: 1px solid #a0f669;
       background: transparent;
@@ -9339,7 +9348,166 @@ font-family: 'Montserrat';
     font-size: 18px !important;
   }
 
+  .desc .more-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    opacity: 0;
+  }
+.desc .more-info button {
+  background: transparent;
+  border: 0;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+ 
   
+}
+
+
+.services-1:hover .desc .more-info {
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+}
+.services-1:hover .desc .more-info button {
+  background: linear-gradient(135deg, 
+  #ffbf41 0%,    
+  #ff3131 30%,    
+  #8c52ff 50%,   
+  #34a5f7 70%,    
+  #67fcfe 100%   
+);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+
+
+/* Apple-style minimalistic modal */
+.modal-content {
+  background-color: #fff; /* Clean white background */
+  color: #000; /* Black text */
+  border: none; /* No border */
+  border-radius: 8px; /* Subtle rounded corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for a floating effect */
+  padding: 20px; /* Space between the content and the edges */
+  font-family: 'San Francisco', sans-serif; /* Sleek font, use Helvetica or San Francisco for true Apple feel */
+}
+
+/* Modal title styling */
+.modal-title {
+  font-size: 24px; /* Large title font */
+  font-weight: 700; /* Lighter font weight */
+  color: #333; /* Dark gray for a softer look */
+  margin-bottom: 10px; /* Spacing beneath the title */
+  text-align: center; /* Centered text */
+}
+
+/* Modal body text */
+.modal-body p {
+  font-size: 16px; /* Clean and readable font size */
+  line-height: 1.7; /* Increased line spacing for better readability */
+  color: #666; /* Soft gray for body text */
+  margin-bottom: 20px; /* Space between paragraphs */ 
+
+}
+
+.modal-body img {
+ height: 32vh;
+  margin-bottom: 20px; /* Space between images */
+  border-radius: 5px; /* Slight rounded corners */
+  padding: 10px; /* Clean and consistent padding */
+}
+
+@media screen and (max-width: 1600px) {
+
+  .modal-body img {
+    height: 18vh;
+    width: auto;
+     margin-bottom: 20px; /* Space between images */
+     border-radius: 5px; /* Slight rounded corners */
+     padding: 10px; /* Clean and consistent padding */
+   }
+
+}
+
+@media screen and (max-height: 500px) {
+
+  .modal-body img {
+    height: 50vh;
+    width: 50vw;
+     margin-bottom: 20px; /* Space between images */
+     border-radius: 5px; /* Slight rounded corners */
+     padding: 10px; /* Clean and consistent padding */
+   }
+
+}
+
+.modal-body {
+  display: flex;
+  justify-content: space-around;
+}
+
+.modal-body .projectdes .summary { 
+  border-radius: 5px; 
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.modal-body .projectdes .summary p { 
+color: #000;
+}
+
+.modal-body .projectdes .summary h2, .modal-body .projectdes .tech h2 {
+  
+ font-weight: 500;
+ font-family: 'San Francisco', sans-serif;
+ color: #000;
+}
+
+.modal-body .projectdes .tech {
+  margin-top: 20px;
+}
+
+
+
+/* Button styling for footer */
+.modal-footer button {
+  background-color: #f8f8f8; /* Light gray for subtle buttons */
+  color: #333; /* Dark gray text */
+  border: 1px solid #e0e0e0; /* Light border for a clean button */
+  border-radius: 10px; /* Slight rounding */
+  padding: 10px 20px; /* Roomy padding */
+  font-weight: 500; /* Medium weight for the button text */
+  transition: background-color 0.3s ease; /* Smooth hover transition */
+  
+}
+
+/* Button hover effect */
+.modal-footer button:hover {
+  background-color: #e0e0e0; /* Slightly darker gray on hover */
+  color: #000; /* Keep the text dark */
+}
+
+/* Modal footer styling */
+.modal-footer {
+  border-top: 1px solid #e0e0e0; /* Light top border to separate the footer */
+  padding-top: 20px; /* Give space above the buttons */
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Modal transitions */
+.modal.fade .modal-dialog {
+  transition: all 0.3s ease-in-out; /* Smooth fade in/out */
+  transform: translateY(-20px); /* Start with slight slide up effect */
+}
+
+.modal.show .modal-dialog {
+  transform: translateY(0); /* End at normal position */
+}
+
+
    
 .progress-wrap {
   width: 100%;
@@ -9955,7 +10123,7 @@ flex-wrap: wrap;
 
 .contact-section .contact-info p a {
   color: #fff;
-  font-family: 'Monterrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
 
