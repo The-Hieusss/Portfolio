@@ -9271,6 +9271,10 @@ font-family: 'San Francisco', sans-serif;
 .grow { transition: .2s ease-in-out;}
 .grow:hover { transform: scale(1.15); }
 
+#procol {
+ color: red!important;
+}
+
 .services-1 {
   margin-bottom: 40px;
   padding: 2em;
@@ -9350,10 +9354,13 @@ font-family: 'San Francisco', sans-serif;
 
   .desc .more-info {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-bottom: 20px;
     opacity: 0;
   }
+
+
+
 .desc .more-info button {
   background: transparent;
   border: 0;
