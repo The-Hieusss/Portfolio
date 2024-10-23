@@ -9271,17 +9271,17 @@ font-family: 'San Francisco', sans-serif;
 .grow { transition: .2s ease-in-out;}
 .grow:hover { transform: scale(1.15); }
 
-#procol {
- color: red!important;
-}
+
 
 .services-1 {
   margin-bottom: 40px;
-  padding: 2em;
+  padding: 1.5em;
   background-color: #000;
   border-radius: 1em;
-  height: 81%;
+  height: 77%;
+  width: auto;
 }
+
   .services-1 .icon {
     display: block;
     margin-bottom: 30px; }
