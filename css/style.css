@@ -3597,7 +3597,7 @@ input[type="button"].btn-block {
 }
 
 .swiper-slide--thirteen {
-  background: url('/frameworks/bootstrap.png') no-repeat 50% 50% / 50%;
+  background: url('/frameworks/bootstrap.png') no-repeat 50% 50% / 30%;
 }
 
 .swiper-3d .swiper-slide-shadow-left,
@@ -7008,7 +7008,7 @@ button.bg-dark:focus {
 .my-4 {
   margin-bottom: 1.5rem !important; 
 color: #000000;
-font-family: 'Montserrat', sans-serif !important;
+font-family: 'San Francisco', sans-serif !important;
 }
 
 
@@ -9354,7 +9354,7 @@ font-family: 'San Francisco', sans-serif;
 
   .desc .more-info {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom: 20px;
     opacity: 0;
   }
@@ -9829,7 +9829,7 @@ textarea.form-control {
 .ftco-footer {
   font-size: 16px;
   background: #000000;
-  padding: 7em 0;
+  padding: 1.5em 0;
   z-index: 0; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
@@ -9946,8 +9946,10 @@ flex-wrap: wrap;
     letter-spacing: 3px; }
 
   .heading-section h2 {
-    font-size: 50px;
-    font-weight: 700; }
+    font-size: 70px;
+    font-weight: 700; 
+    font-family: 'San Francisco', sans-serif !important;
+  }
     .heading-section h2 span {
       font-weight: 400; }
     @media (max-width: 767.98px) {
@@ -9957,8 +9959,18 @@ flex-wrap: wrap;
     color: rgba(255, 255, 255, 0.9) !important; }
   .heading-section.heading-section-white h2 {
     color: #fff; }
-  .heading-section.heading-section-white p {
-    color: rgba(255, 255, 255, 0.9); }
+ 
+
+
+
+.heading-section p {
+  color: #000 !important;
+  font-family: 'San Francisco', sans-serif;
+  font-size: 20px;
+  line-height: 1.8;
+  font-weight: 300;
+  text-wrap: wrap;
+}
 
 .img,
 .blog-img,
