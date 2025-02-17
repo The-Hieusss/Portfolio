@@ -3600,6 +3600,14 @@ input[type="button"].btn-block {
   background: url('/frameworks/bootstrap.png') no-repeat 50% 50% / 30%;
 }
 
+.swiper-slide--fourteen {
+  background: url('/frameworks/ROR.svg') no-repeat 50% 50% / 30%;
+}
+
+.swiper-slide--fifteen {
+  background: url('/frameworks/postgre.svg') no-repeat 50% 50% / 30%;
+}
+
 .swiper-3d .swiper-slide-shadow-left,
 .swiper-3d .swiper-slide-shadow-right {
     background-image: none;
