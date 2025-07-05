@@ -69,6 +69,16 @@ body {
   
 }
 
+ /* Add to your main CSS */
+.js-fullheight {
+  /* replace your old JS fullHeight */
+  min-height: 100vh;
+}
+
+/* ensure proper scaling on mobile */
+meta[name="viewport"] {
+  content: "width=device-width, initial-scale=1.0";
+}
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
